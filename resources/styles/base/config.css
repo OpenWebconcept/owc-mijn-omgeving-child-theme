@@ -1,0 +1,22 @@
+/* Theme variables - for overwriting and creating new utility classes */
+@source './../../**/*.{blade.php,php,js,jsx}';
+@source './../../../app/**/*.php';
+
+@theme {
+	/* Colors */
+	--color-primary-50: #fff1f2;
+	--color-primary-100: #ffdfe0;
+	--color-primary-200: #ffc4c6;
+	--color-primary-300: #ff9ca0;
+	--color-primary-400: #ff6268;
+	--color-primary-500: #ff3139;
+	--color-primary-600: #ea0f18;
+	--color-primary-700: #ca0b13;
+	--color-primary-800: #a70d13;
+	--color-primary-900: #8a1217;
+	--color-primary-950: #4b0407;
+	--color-primary: var( --color-primary-600 );
+
+	/* Typography */
+	--font-sans: 'Ubuntu', sans-serif;
+}

@@ -1,0 +1,23 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "theme/example-block",
+	"title": "Example Block",
+	"category": "theme",
+	"description": "Example client-side block shipped with the child theme.",
+	"supports": {
+		"multiple": true,
+		"html": false,
+		"reusable": false
+	},
+	"attributes": {
+		"isEnabled": {
+			"type": "boolean",
+			"default": false
+		}
+	},
+
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./editor-style.css",
+	"style": "file:./style.css"
+}

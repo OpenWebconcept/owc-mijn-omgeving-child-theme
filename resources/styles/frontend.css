@@ -1,0 +1,6 @@
+/* Parent theme */
+@import './../../../owc-mijn-omgeving/resources/styles/frontend.css';
+
+/* Base */
+@import './base/config';
+@import './base/variables';

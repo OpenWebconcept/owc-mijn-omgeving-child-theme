@@ -1,0 +1,6 @@
+/* Sage parent theme */
+@import './../../../owc-mijn-omgeving/resources/styles/editor.css';
+
+/* Child theme */
+@import './base/config';
+@import './base/variables';

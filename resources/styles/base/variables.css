@@ -1,0 +1,46 @@
+:root {
+	/* Body */
+	--body-bg: #f4f4f4;
+	--container-max-width: 1160px;
+
+	/* Typography */
+	--h1-font-weight: 700;
+	--heading-color: var( --color-black );
+	--heading-font-weight: 400;
+
+	/* Buttons */
+	--button-after-content: '\f054';
+	--button-after-font-weight: 300;
+	--button-border-width: 0;
+	--button-border-radius: 0;
+	--button-font-weight: 700;
+	--button-padding-x: 1.3em;
+	--button-padding-y: 0.85em;
+	--button-subtle-bg-color-hover: var( --color-gray-300 );
+	--button-subtle-bg-color: var( --color-gray-200 );
+
+	/* Navigation */
+	--nav-bar-height: 90px;
+	--nav-bar-shadow: 0 2px 3px 0 rgba( 40, 44, 53, 0.08 ),
+		0 1px 1px 0 rgba( 40, 44, 53, 0.1 );
+	--nav-menu-item-color: var( --color-black );
+	--nav-menu-item-font-size: 1.1rem;
+	--nav-menu-item-color-active: var( --color-black );
+	--nav-menu-item-font-weight-active: 700;
+	--nav-menu-item-before-bg-color: transparent;
+	--logo-height: 50px;
+
+	/* Breadcrumbs */
+	--breadcrumb-item-color: #6c757d;
+	--breadcrumb-item-separator: '/';
+	--breadcrumbs-bg-color: var( --body-bg );
+	--breadcrumbs-height: 60px;
+
+	/* Box */
+	--box-bg-color: var( --color-white );
+
+	/* Footer */
+	--footer-bg-color: var( --color-white );
+	--footer-text-color: var( --color-black );
+	--footer-heading-color: var( --heading-color );
+}

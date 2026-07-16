@@ -1,0 +1,6 @@
+/* Tailwind context comes from the parent theme's config (relative path). */
+@reference '../../../../../owc-mijn-omgeving/resources/styles/base/config.css';
+
+.wp-block-theme-example-block {
+	/* Frontend styles */
+}
