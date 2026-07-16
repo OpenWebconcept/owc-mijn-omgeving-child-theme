@@ -1,0 +1,22 @@
+{
+	"name": "owc/mijn-omgeving-child-theme",
+	"description": "Example child theme for the OWC Mijn Omgeving Sage theme",
+	"type": "wordpress-theme",
+	"license": "MIT",
+	"require": {
+		"php": ">=8.2"
+	},
+	"autoload": {
+		"psr-4": {
+			"OWC\\MijnOmgeving\\Child\\": "app/"
+		}
+	},
+	"config": {
+		"allow-plugins": {
+			"composer/installers": true
+		}
+	},
+	"extra": {
+		"installer-name": "gouda"
+	}
+}
