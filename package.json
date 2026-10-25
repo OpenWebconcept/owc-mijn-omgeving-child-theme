@@ -29,7 +29,7 @@
 		"@yardinternet/toolkit": "^2.2.0",
 		"@yardinternet/vite-config": "^1.4.0",
 		"tailwindcss": "^4.3.1",
-		"vite": "^7.3.5"
+		"vite": "^7.3.7"
 	},
 	"dependencies": {
 		"@gemeente-denhaag/side-navigation": "^4.1.1",
